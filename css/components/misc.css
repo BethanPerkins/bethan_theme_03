@@ -79,10 +79,19 @@
 /**
  * Branding header.
  */
+ 
+#header {
+  background: 8px solid #006ea8;
+}
 
+/* Container for the logo - positions it centrally */
+.header__logo_container {
+  text-align: center;
+}  
+ 
 /* Wrapping link for logo. */
 .header__logo {
-  float: left; /* LTR */
+  /*float: left; /* LTR*/ 
   margin: 0;
   padding: 0;
 }
@@ -90,6 +99,7 @@
 /* Logo image. */
 .header__logo-image {
   vertical-align: bottom;
+  margin: 5em 0;
 }
 
 /* Wrapper for website name and slogan. */
@@ -158,6 +168,21 @@
   list-style-image: none;
 }
 
+/**
+ * Highlight section
+ */
+#highlight {
+  background-color: #eee;
+  }
+ 
+ /**
+ * Footer
+ */
+#footer {
+  background-color:#006ea8;
+}
+ 
+ 
 /**
  * Breadcrumb navigation.
  */
